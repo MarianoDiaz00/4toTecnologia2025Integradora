@@ -1,10 +1,10 @@
 # 💻 4to Tecnología 2025  
-## **Trabajo Práctico 1 – Tecnologías de la Información – 🏪 Store Manager 3000**
+## **Trabajo Práctico Integrador – Tecnologías de la Información – 🏪 MarketPlace**
 
-Una nueva cadena de tiendas nos contrató para desarrollar un sistema de **gestión de productos y ventas**.  
+Una nueva cadena de supermercados nos contrató para desarrollar un sistema de **gestión de productos y ventas**.  
 El sistema permitirá administrar el inventario, controlar precios y realizar operaciones de venta de forma eficiente.  
 
-El objetivo será crear un programa modular, con menú interactivo, uso correcto de **listas, diccionarios, funciones, bucles y condicionales**, asegurando que todas las entradas sean validadas.
+El objetivo será crear un programa, con menú interactivo, uso correcto de **listas, diccionarios, funciones, bucles y condicionales**, asegurando que todas las entradas sean validadas.
 
 ---
 
@@ -28,7 +28,7 @@ El objetivo será crear un programa modular, con menú interactivo, uso correcto
 - El sistema mostrará todos los productos registrados en formato tabla:  
   `Producto | Precio | Stock`  
 - Indicar la **cantidad total de productos** y el **valor total del inventario** (precio × cantidad).  
-- Si no hay productos registrados, debe indicarse con un mensaje claro.  
+- Si no hay productos registrados, debe indicarse con un mensaje.  
 
 ---
 
@@ -50,7 +50,6 @@ El objetivo será crear un programa modular, con menú interactivo, uso correcto
 
 - Permitir eliminar un producto del inventario.  
 - Validar que el producto exista antes de borrarlo.  
-- Confirmar la eliminación antes de ejecutar la acción.  
 
 ---
 
@@ -58,7 +57,7 @@ El objetivo será crear un programa modular, con menú interactivo, uso correcto
 
 - Mostrar:
   - El producto más caro.  
-  - El producto más económico.  
+  - El producto más barato.  
   - El producto con mayor stock.  
 - Si el inventario está vacío, se debe informar.  
 
@@ -76,10 +75,10 @@ Antes de cerrar, el sistema debe imprimir un resumen con:
 ### ⚙️ Requerimientos  
 
 - Menú interactivo con al menos 6 opciones.  
-- Uso obligatorio de **diccionarios anidados**.  
+- Uso obligatorio de **diccionarios**.  
 - Validación de todas las entradas (precios, nombres y cantidades).  
 - Implementar funciones para cada acción (`agregar_producto()`, `mostrar_inventario()`, etc.).  
-- Código limpio, organizado y con mensajes claros.  
+- Código organizado y con mensajes claros.  
 
 ---
 
@@ -95,19 +94,19 @@ Antes de cerrar, el sistema debe imprimir un resumen con:
 
 | Criterio | Puntaje |
 |----------|----------|
-| Cumplimiento de todas las funcionalidades básicas | 6 pts |
-| Uso correcto de funciones y validaciones | 8 pts |
-| Implementación de desafíos extra | 10 pts |
+| Cumplimiento de todas las funcionalidades básicas | 6 |
+| Uso correcto de funciones y validaciones | 8 |
+| Implementación de desafíos extra | 10 |
 
 ---
 
 ---
 
 # 🧾 4to Tecnología 2025  
-## **Trabajo Práctico 2 – Tecnologías de la Información – 🚖 RideNow! – Sistema de viajes compartidos**
+## **Trabajo Práctico Integrador – Tecnologías de la Información – 🚖 Taxi Calasanz!**
 
-Una startup argentina de movilidad quiere crear un prototipo de su sistema de gestión de viajes.  
-Tu tarea será desarrollar una versión inicial del programa que administre choferes, pasajeros y viajes.  
+Una empresa argentina de movilidad quiere crear un sistema de gestión de viajes.  
+Nos piden desarrollar una versión inicial del programa que administre choferes, pasajeros y viajes.  
 
 ---
 
@@ -123,7 +122,7 @@ Tu tarea será desarrollar una versión inicial del programa que administre chof
 ### 👥 2. Registrar pasajeros  
 
 - El sistema permitirá ingresar los nombres de los pasajeros frecuentes.  
-- Los pasajeros se guardarán en una **lista simple** sin duplicados.  
+- Los pasajeros se guardarán en una **lista** sin duplicados.  
 - Si el usuario intenta ingresar un nombre vacío o repetido, se mostrará un error.  
 
 ---
@@ -152,14 +151,13 @@ Tu tarea será desarrollar una versión inicial del programa que administre chof
 
 ### 🗑️ 5. Eliminar chofer o pasajero  
 
-- Permitir eliminar choferes o pasajeros registrados.  
-- Si tienen viajes asociados, se debe advertir al usuario antes de eliminarlos.  
+- Permitir eliminar choferes o pasajeros registrados.    
 
 ---
 
 ### 🔚 6. Cerrar sistema  
 
-Antes de finalizar, mostrar un resumen general con:  
+Antes de finalizar, mostrar un resumen con:  
 - Choferes registrados y sus viajes.  
 - Pasajeros frecuentes.  
 - Total de viajes y recaudación.  
@@ -170,7 +168,6 @@ Antes de finalizar, mostrar un resumen general con:
 
 - Uso de **listas, diccionarios y bucles**.  
 - Validación de datos obligatoria.  
-- Código modular, con funciones separadas por tarea.  
 - Menú principal con opciones claras y numeradas.  
 - Presentación legible y uso de mensajes descriptivos.  
 
@@ -188,18 +185,18 @@ Antes de finalizar, mostrar un resumen general con:
 
 | Criterio | Puntaje |
 |----------|----------|
-| Funcionalidades básicas completas | 6 pts |
-| Código estructurado y sin errores | 8 pts |
-| Al menos un desafío extra | 10 pts |
+| Funcionalidades básicas completas | 6 |
+| Código estructurado y sin errores | 8 |
+| Al menos un desafío extra | 10 |
 
 ---
 
 ---
 
 # 🏦 4to Tecnología 2025  
-## **Trabajo Práctico 3 – Tecnologías de la Información – 💰 SafeBank – Sistema bancario digital**
+## **Trabajo Práctico Integrador – Tecnologías de la Información – 💰 BancoPython**
 
-Una fintech necesita un sistema básico para administrar las cuentas de sus clientes.  
+Una financiera necesita un sistema  para administrar las cuentas de sus clientes.  
 El programa debe permitir abrir cuentas, registrar movimientos, realizar transferencias y generar reportes.  
 
 ---
@@ -264,8 +261,8 @@ Antes de finalizar, mostrar un resumen general con:
 - Uso obligatorio de **diccionarios anidados y listas**.  
 - Múltiples funciones con nombres claros (`crear_cuenta()`, `transferir()`, etc.).  
 - Validaciones en todas las operaciones (saldo, existencia de cuentas, datos vacíos).  
-- Menú principal con submenús para operaciones bancarias.  
-- Código ordenado, con comentarios y mensajes al usuario.  
+- Menú para operaciones bancarias.  
+- Código ordenado y con mensajes claros al usuario.  
 
 ---
 
@@ -281,6 +278,6 @@ Antes de finalizar, mostrar un resumen general con:
 
 | Criterio | Puntaje |
 |----------|----------|
-| Cumple con las operaciones bancarias básicas | 6 pts |
-| Uso correcto de funciones y estructuras | 8 pts |
-| Implementación de desafíos extra | 10 pts |
+| Cumple con las operaciones bancarias básicas | 6 |
+| Uso correcto de funciones y estructuras | 8 |
+| Implementación de desafíos extra | 10 |
